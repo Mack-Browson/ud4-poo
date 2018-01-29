@@ -6,7 +6,8 @@ public class Main {
 	// write your code here
 
         Grupo g = new Grupo ();
-        
+         g.setCodigo ("01A");
+        g.rellenarAlumnos ();
 
     }
 }

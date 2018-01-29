@@ -7,7 +7,15 @@ public class Alumno {
     private String dni;
     private String telefono;
 
-    Grupo grupo = new Grupo ();
+    private Grupo grupo ; // grupo
+
+    public Grupo getGrupo() {
+        return grupo;
+    }
+
+    public void setGrupo(Grupo grupo) {
+        this.grupo = grupo;
+    }
 
     public Alumno(String nombre, String apellido, String dni, String telefono) {
         this.nombre = nombre;

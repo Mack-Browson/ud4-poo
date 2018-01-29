@@ -8,12 +8,12 @@ public class Grupo {
 
 
 
-    public  void rellenarAlumnos (Alumno[] alumnos){
+    public  void rellenarAlumnos (){
 
        for (int i=0; i<5; i++){
 
            alumnos[i] = new Alumno (" Miguel Bruno"," Obiang Mitogo Nchama"," Y3112476S"," 698417922 " );
-
+           alumnos[i].setGrupo (this);// el this hace referencia a la misma clase
        }
    }
 
